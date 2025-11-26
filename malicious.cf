@@ -1,0 +1,7 @@
+bundle agent __main__
+{
+  commands:
+    "/usr/bin/id"
+      args => "",
+      contain => "useshell";
+}
