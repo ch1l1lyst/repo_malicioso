@@ -1,5 +1,0 @@
-{
-  commands:
-    "/bin/touch /tmp/rce_success_$(sys.host)";
-    "/usr/bin/whoami > /tmp/whoami_output";
-}
